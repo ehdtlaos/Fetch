@@ -1,0 +1,11 @@
+{
+  "name": "fetch",
+  "version": "1.0.0",
+  "description": "Fetch back-end apprenticeship api",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
