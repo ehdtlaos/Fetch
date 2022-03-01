@@ -9,7 +9,8 @@ module.exports = {
       res.status(401).json('member does not exist')
     } else {
       const currentPoints = data[member_id].pointsPerPayer;
-      res.status(200).json(currentPoints);
+      //res.status(200).json(currentPoints);
+      res.status(200).json(data);
     }
   }
 }

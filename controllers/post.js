@@ -18,7 +18,7 @@ module.exports = {
       if (points >= 0) {
         data[member_id] = {
           allPoints: [transaction],
-          spentPoints: {},
+          spentPoints: [],
           pointsPerPayer: {
             [payer]: points
           },

@@ -6,6 +6,12 @@ let data = {
       "allPoints": [
           {
               "payer": "DANNON",
+              "earnedPoints": 1000,
+              "timestamp": "2020-11-02T14:00:00Z",
+              "currentPoints": 1000
+          },
+          {
+              "payer": "DANNON",
               "earnedPoints": 300,
               "timestamp": "2020-10-31T10:00:00Z",
               "currentPoints": 300
@@ -27,15 +33,9 @@ let data = {
               "earnedPoints": 10000,
               "timestamp": "2020-11-01T14:00:00Z",
               "currentPoints": 10000
-          },
-          {
-              "payer": "DANNON",
-              "earnedPoints": 1000,
-              "timestamp": "2020-11-02T14:00:00Z",
-              "currentPoints": 1000
           }
       ],
-      "spentPoints": {},
+      "spentPoints": [],
       "pointsPerPayer": {
           "DANNON": 1100,
           "UNILEVER": 200,
