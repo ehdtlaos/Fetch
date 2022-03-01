@@ -1,5 +1,4 @@
 const data = require('../database/data.js');
-const moment = require('moment');
 
 module.exports = {
   spentPoints: (req, res) => {
@@ -20,7 +19,6 @@ module.exports = {
       res.status(400).json('Not enough points');
     } else {
       let pointSpent = {};
-      const timeStamp = moment().format();
       unusedPoints.sort((a,b) => {
         let aTimestamp = '';
         let bTimestamp = '';
