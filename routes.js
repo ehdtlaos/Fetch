@@ -8,6 +8,6 @@ router.get(`/get/:member_id`, controller.get.getCurrentPoints);
 router.post(`/add/:member_id`, controller.post.addNewPoints);
 
 //update data using spent points
-router.put(`/put/:member_id`, controller.post.spentPoints)
+router.put(`/spent/:member_id`, controller.put.spentPoints)
 
 module.exports = router;

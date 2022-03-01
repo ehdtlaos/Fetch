@@ -4,12 +4,12 @@ module.exports = {
   //return current points per payer
   getCurrentPoints: (req, res) => {
     const { member_id } = req.params;
-    const currentPoints = data[member_id].pointsPerPayer;
 
-    if (currentPoints) {
-      res.status(200).json(currentPoints);
+    if (!data.hasOwnProperty(member_id)) {
+      res.status(401).json('member does not exist')
     } else {
-      res.sendStatus(404);
+      const currentPoints = data[member_id].pointsPerPayer;
+      res.status(200).json(currentPoints);
     }
   }
 }
