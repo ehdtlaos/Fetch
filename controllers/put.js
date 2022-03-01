@@ -90,7 +90,7 @@ module.exports = {
         updateAllPoints[spentData.payer] = num + num2;
       }
 
-      res.status(200).json(data);
+      res.status(200).json(spentPoints);
     }
   }
 }
