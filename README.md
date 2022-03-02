@@ -10,8 +10,8 @@ A web service that accepts HTTP requests and returns responsese based on the con
 - Technology Used
 
 ## Description
-This project is designed to be a back-end project.
-There are three functionalities in this project.
+This project is designed to be a back-end project. There are three functionalities in this project.
+
   1. Getting member's total points per payer
 
      - Each member will have their own membership id, which needs to be given at the beginning
@@ -68,7 +68,6 @@ There are three functionalities in this project.
      }
      ```
      
-
 Unit test has been added to the project as well.
 
 ## Installation
