@@ -14,9 +14,6 @@ This project is designed to be a back-end project.
 There are three functionalities in this project.
   1. Getting member's total points per payer
 
-    - Get will return member's total points by each payers in object
-
-    
     sample:
     
     Member's id: 1
