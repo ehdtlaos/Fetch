@@ -15,15 +15,15 @@ There are three functionalities in this project.
   1. Getting member's total points per payer
 
     - Get will return member's total points by each payers in object
- 
-    ```
+
+    `
     sample:
     {
       "DANNON": 1000,
       "UNILEVER": 0,
       "MILLER COORS": 5300
     }
-    ```
+    `
     
     - In the sample, key is payer's name and value is points they current have for the payer.
     
