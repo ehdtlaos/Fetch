@@ -70,6 +70,10 @@ This project is designed to be a back-end project. There are three functionaliti
      
 Unit test has been added to the project as well.
 
+If you are willing to test the server, current port is set to 3000 and can use localhost:3000/ to continue your testings.
+
+Reminder: Member's account balance cannot go negative. Remember to provide membership id to each members.
+
 ## Installation
 Fork and clone this repo then run:
 
