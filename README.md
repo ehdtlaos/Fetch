@@ -35,7 +35,7 @@ There are three functionalities in this project.
 
      - You can add points to member's data by using POST function
 
-     - In the sample below, you will need to use member's id to access member's data first, then you will need to send payor, points, and timestamp information with body
+     - In the sample below, you will need to use member's id to access member's data, then you will need to send payor, points, and timestamp information with body
 
      ```
      Member_id: 1,
@@ -52,19 +52,19 @@ There are three functionalities in this project.
      
   3. Updating the data with points that needs to be spent
 
-     - Each member will have their own membership id, which needs to be given at the beginning
+     - You can use member's id and spent point information to adjest balance in member's account.
 
-     - In the sample below, key is payer's name and value is points they current have for the payer.
+     - You will receive data of how much points were deducted from each payer.
+
+     - In the sample below, you'll need to use member's id to access member's data, then you will send points that they spent.
 
      ```
      Member_id: 1,
-     Request: 'GET /get/1'
+     Request: 'PUT /spent/1'
      
-     return:
+     body:
      {
-      "DANNON": 1000,
-      "UNILEVER": 0,
-      "MILLER COORS": 5300
+      "points": 1000,
      }
      ```
      
