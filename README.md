@@ -32,4 +32,4 @@ Fork and clone this repo then run:
 
 - Server: EXPRESSJS
 
-- Unit Testing: jEST
+- Unit Testing: Jest
