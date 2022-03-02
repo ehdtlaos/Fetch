@@ -29,7 +29,7 @@ module.exports = {
         };
 
         //return status 200
-        res.status(200);
+        res.status(200).send();
 
         //testing return to see whole data as a return
         //res.status(200).json(data);
@@ -52,7 +52,7 @@ module.exports = {
           transactions.pointsPerPayer[payer] += points;
           transactions.allPoints.push(transaction);
 
-          res.status(200);
+          res.status(200).send();
           //testing return where it returns whole data
           //res.status(200).json(data);
         } else {
@@ -66,7 +66,7 @@ module.exports = {
           transactions.allPoints.push(transaction);
           transactions.pointsPerPayer[payer] = points;
 
-          res.status(200);
+          res.status(200).send();
 
           //testing return where it returns whole data
           //res.status(200).json(data);
