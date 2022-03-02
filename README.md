@@ -25,7 +25,6 @@ Fork and clone this repo then run:
 
 `npm start` will start the server
 
-`npm test` will run the test
-  ** You will need to terminate the server if you want to run the testing
+`npm test` will run the test (You will need to terminate the server by pressing (control + c) if you want to run the testing)
   
 ##
