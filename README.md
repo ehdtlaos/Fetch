@@ -30,8 +30,44 @@ There are three functionalities in this project.
      }
      ```
      
-  3. Adding more payer & point information to the data
-  4. Updating the data with points that needs to be spent
+  2. Adding more payer & point information to the data
+
+
+     - You can add points to member's data by using POST function
+
+     - In the sample below, you will need to use member's id to access member's data first, then you will need to send payor, points, and timestamp information with body
+
+     ```
+     Member_id: 1,
+     Request: 'POST /add/1'
+     
+     body:
+     {
+      "payer": "DANNON",
+      "points": 1000,
+      "timestamp": "2020-10-31T10:00:00Z"
+     }
+     ```
+     - It won't return anything, but you will still get status code 200 if it succeeds.
+     
+  3. Updating the data with points that needs to be spent
+
+     - Each member will have their own membership id, which needs to be given at the beginning
+
+     - In the sample below, key is payer's name and value is points they current have for the payer.
+
+     ```
+     Member_id: 1,
+     Request: 'GET /get/1'
+     
+     return:
+     {
+      "DANNON": 1000,
+      "UNILEVER": 0,
+      "MILLER COORS": 5300
+     }
+     ```
+     
 
 Unit test has been added to the project as well.
 
