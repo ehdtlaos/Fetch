@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Fetch back-end apprenticeship api",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
     "express": "^4.17.3"
   },
   "devDependencies": {
