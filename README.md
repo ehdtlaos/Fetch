@@ -11,7 +11,7 @@ A web service that accepts HTTP requests and returns responsese based on the con
 
 ## Description
 This project is designed to be a back-end project.
-There are three functions in this project.
+There are three functionalities in this project.
   1. Getting member's total points per payer
   2. Adding more payer & point information to the data
   3. Updating the data with points that needs to be spent
