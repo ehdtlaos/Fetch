@@ -17,7 +17,8 @@ There are three functionalities in this project.
     - Get will return member's total points by each payers in object
 
     
-    sample:
+    ## sample:
+    
     {
       "DANNON": 1000,
       "UNILEVER": 0,
