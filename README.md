@@ -27,4 +27,7 @@ Fork and clone this repo then run:
 
 `npm test` will run the test (You will need to terminate the server by pressing (control + c) if you want to run the testing)
   
-##
+## Technology Used
+- Dependencies: npm
+- Server: EXPRESSJS
+- Unit Testing: jEST
