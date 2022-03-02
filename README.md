@@ -13,7 +13,9 @@ A web service that accepts HTTP requests and returns responsese based on the con
 This project is designed to be a back-end project.
 There are three functionalities in this project.
   1. Getting member's total points per payer
+
     - Get will return member's total points by each payers in object
+    - 
     ```
     sample:
     {
@@ -22,9 +24,11 @@ There are three functionalities in this project.
       "MILLER COORS": 5300
     }
     ```
+    
     - In the sample, key is payer's name and value is points they current have for the payer.
-  3. Adding more payer & point information to the data
-  4. Updating the data with points that needs to be spent
+    
+  2. Adding more payer & point information to the data
+  3. Updating the data with points that needs to be spent
 
 Unit test has been added to the project as well.
 
