@@ -30,6 +30,6 @@ Fork and clone this repo then run:
 ## Technology Used
 - Dependencies: npm
 
-- Server: EXPRESSJS
+- Server: ExpressJS
 
 - Unit Testing: Jest
