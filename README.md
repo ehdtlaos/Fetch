@@ -13,11 +13,11 @@ A web service that accepts HTTP requests and returns responsese based on the con
 This project is designed to be a back-end project.
 There are three functionalities in this project.
   1. Getting member's total points per payer
-  2. 
+
      - Each member will have their own membership id, which needs to be given at the beginning
-     - 
+
      - In the sample below, key is payer's name and value is points they current have for the payer.
-     - 
+
      ```
      Member_id: 1,
      Request: 'GET /get/1'
