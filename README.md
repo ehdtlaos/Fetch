@@ -90,4 +90,4 @@ Fork and clone this repo then run:
 
 - Server: ExpressJS
 
-- Unit Testing: Jest
+- Unit Testing: Jest Supertest
