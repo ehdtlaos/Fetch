@@ -35,7 +35,7 @@ module.exports = {
         //res.status(200).json(data);
       } else {
         //if point was negative, we return error messaging saying member can't have negative balance
-        res.status(401).json('error: points cannot go negative');
+        res.status(400).json('error: points cannot go negative');
       }
 
     } else {
@@ -57,7 +57,7 @@ module.exports = {
           //res.status(200).json(data);
         } else {
           //if total points go negative, return error message saying points can't go negative
-          res.status(401).json('error: points cannot go negative');
+          res.status(400).json('error: points cannot go negative');
         }
       } else {
         //if payer's information is new payer's information
@@ -72,7 +72,7 @@ module.exports = {
           //res.status(200).json(data);
         } else {
           //if given point is negative, return error message saying points can't go negative
-          res.status(401).json('error: points cannot go negative');
+          res.status(400).json('error: points cannot go negative');
         }
       }
     }

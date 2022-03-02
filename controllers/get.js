@@ -6,7 +6,7 @@ module.exports = {
 
     //if member id doesn't exist, return 'member doesn't exist'
     if (!data.hasOwnProperty(member_id)) {
-      res.status(401).json('member does not exist')
+      res.status(400).json('member does not exist')
     } else {
       //if member id exist, grab total points per payer data and return it
       const currentPoints = data[member_id].pointsPerPayer;
